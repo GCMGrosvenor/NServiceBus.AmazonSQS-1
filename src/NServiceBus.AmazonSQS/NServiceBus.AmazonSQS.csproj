@@ -71,6 +71,8 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>mkdir $(ProjectDir)..\$(TargetName).NuGet\lib\net45
+mkdir $(ProjectDir)..\$(TargetName).NuGet\content
+mkdir $(ProjectDir)..\$(TargetName).NuGet\src
 copy $(TargetPath) $(ProjectDir)..\$(TargetName).NuGet\lib\net45
 copy $(TargetDir)$(TargetName).pdb $(ProjectDir)..\$(TargetName).NuGet\lib\net45</PostBuildEvent>
   </PropertyGroup>
