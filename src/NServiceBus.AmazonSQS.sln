@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBus.AmazonSQS.IntegrationTests", "NServiceBus.AmazonSQS.IntegrationTests\NServiceBus.AmazonSQS.IntegrationTests.csproj", "{8747782D-0BDB-4FA3-9C59-C0920E289339}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBus.AmazonSQS.NuGet", "NServiceBus.AmazonSQS.NuGet\NServiceBus.AmazonSQS.NuGet.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A40EBAE3-ADF8-4CD8-87DA-025BCA6BA1C2} = {A40EBAE3-ADF8-4CD8-87DA-025BCA6BA1C2}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBus.AmazonSQS.AcceptanceTests", "NServiceBus.AmazonSQS.AcceptanceTests\NServiceBus.AmazonSQS.AcceptanceTests.csproj", "{E87BA318-68A7-4EEE-8817-DFC91296299B}"
 EndProject
